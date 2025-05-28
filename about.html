@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Shalash | About Me</title>
+
+    <!-- ——— CSS & fonts ——— -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-loading">
+<!-- ——— Navigation ——— -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Mahmoud Shalash</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item ms-lg-3">
+                    <button id="darkModeToggle" class="btn btn-sm btn-outline-secondary" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon" id="darkModeIcon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ——— Main content ——— -->
+<main id="page-content-wrapper">
+    <section id="about-content" class="section">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Driven by science, innovation & data.</p>
+            </div>
+
+            <div class="row align-items-center">
+                <!-- Profile image -->
+                <div class="col-lg-4 text-center mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
+                    <div class="profile-image-wrapper">
+                        <img src="images/profile.jpg" alt="Mahmoud Shalash"
+                             class="img-fluid rounded-circle shadow profile-image">
+                    </div>
+                </div>
+
+                <!-- Bio -->
+                <div class="col-lg-8" data-aos="fade-left" data-aos-delay="300">
+                    <p class="lead-2">
+                        I am a PhD candidate in Computational Biophysics at the University of Bologna.
+                        My work blends <strong>hydrogen–deuterium exchange mass spectrometry (HDX-MS)</strong>,
+                        large-scale molecular dynamics, and modern AI architectures to decode the behaviour
+                        of both ordered and intrinsically disordered proteins.
+                    </p>
+
+                    <p>
+                       Before starting my PhD, I completed an MSc in Medicinal and Biological Chemistry at the University of Edinburgh 
+                       and earned a BSc in Pharmaceutical Sciences from MSA University in Egypt. My academic journey and research experiences 
+                       developed my interest in the intersection of biology, chemistry and computational methods, especially in the context of proteins 
+                       . This foundation sparked my passion for using simulations and AI to explore protein strctures and dynamics 
+                       and support structure-based drug discovery.
+                    </p>
+
+                    <p>
+                        I aim to contribute to open-source Python tools for studying protein dynamics and structures,
+                         and to collaborate with experimental researchers to validate and refine these tools—ultimately
+                          enhancing their effectiveness in computational biochemistry and structure-based drug design.
+                    </p>
+
+                    <h4 class="mt-4">FutureData4EU Project</h4>
+                    <p>
+                        Awarded a Marie Curie (MSCA) COFUND scholarship through
+                        <a href="https://site.unibo.it/futuredata4eu/en/the-project" target="_blank"
+                           rel="noopener noreferrer" class="highlight-link">FutureData4EU</a>,
+                        I am training to harness high-performance computing and big-data pipelines
+                        for health and enabling-technology applications. My doctoral research
+                        sits at the intersection of these pillars, with the goal of turning raw
+                        biophysical data into actionable molecular insights.
+                    </p>
+
+                    <h5 class="mt-4">Key Competencies</h5>
+			<ul class="list-unstyled lh-lg mb-0">
+			    <li><i class="fas fa-check text-primary me-2"></i>
+				HDX-MS data analysis, protection factor estimation, and uptake modeling</li>
+			    <li><i class="fas fa-check text-primary me-2"></i>
+				Molecular simulations and enhanced sampling (QM/MM, umbrella sampling, OpenMM, CP2K)</li>
+			    <li><i class="fas fa-check text-primary me-2"></i>
+				Machine learning integration in biophysical modeling (scikit-learn, PyTorch)</li>
+			    <li><i class="fas fa-check text-primary me-2"></i>
+				Scientific computing with Python (NumPy, pandas, Matplotlib) and workflow automation</li>
+			    <li><i class="fas fa-check text-primary me-2"></i>
+				Open-source tool development and reproducible research practices</li>
+			</ul>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- ——— Footer ——— -->
+<footer class="footer text-white text-center py-4">
+    <div class="container">
+        <p class="mb-0">© <span id="currentYear"></span> Mahmoud Shalash. All Rights Reserved.</p>
+        <p class="small mb-0">Designed with Bootstrap & <i class="fas fa-heart text-danger"></i></p>
+    </div>
+</footer>
+
+<!-- ——— JS dependencies ——— -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>  <!-- harmless if unused -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/ngl@2.0.0-dev.37/dist/ngl.js"></script>     <!-- harmless if unused -->
+<script src="js/page-transitions.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+

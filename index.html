@@ -1,389 +1,143 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Mahmoud Shalash personal website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Shalash | Computational Biophysics - Home</title>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- External CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="content">
-							<div class="inner">
-								<h1>MAHMOUD SHALASH</h1>
-								<p>A PERSON WHO IS IN LOVE WITH MEDICINAL AND BIOLOGICAL CHEMISTRY. IN PARTICULAR, I AM VERY INTERESTED IN HOW PROTEINS WORK AND HOW TO
-									 DEVELOP NEW COMPOUNDS THAT CAN TARGET THEM TO MODIFY THEIR ACTIONS USING COMPUTER-AIDED DRUG DESIGN (CADD). 
-									I AM ALSO INTERESTED IN THE INTEGRATION OF ML AND AI INTO THIS FIELD TO SPEED UP THE PROCESS OF DRUG DESIGN AND DISCOVERY!</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#whoami">WHO AM I</a></li>
-								<li><a href="#skills">SKILLS</a></li>
-								<li><a href="#research">Research</a></li>
-								<li><a href="#jobs">Jobs</a></li>
-								<li><a href="#interests">Interests</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+<body class="page-loading">
+    <!-- ────────── Navigation Bar ────────── -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Mahmoud Shalash</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-				<!-- Main -->
-					<div id="main">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <button id="darkModeToggle" class="btn btn-sm btn-outline-secondary"
+                                aria-label="Toggle dark mode">
+                            <i class="fas fa-moon" id="darkModeIcon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-						<!-- Intro -->
-							<article id="whoami">
-								<h2 class="major">WHO AM I?</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" />
-									<figcaption>Me at the top of Arther's seat, Edinburgh, Scotland</figcaption>
-								</span>
-								<p>My name is Mahmoud Shalash, and I am from Egypt. I came to the UK for the first time in 2021 to get my master degree from The University of Edinburgh (UoE) in medicinal and biological chemistry.
-									I got my undergrad degree in pharmaceutical science from October University for Modern Science and Art <a href="https://msa.edu.eg/msauniversity/">(MSA)</a> from Egypt. 
-									I graduated from MSA with two certificates. One of them was issued from the University of Greenwich, a joint programme. I did both of my graduation projects in computational chemistry.
-									My graduation project from UoE was about "Benchmarking an Absolute Binding Free Energy Calculation Workflow for Computer-Aided Drug Design" in <a href="https://www.julienmichel.net/lab/group">Julien Michel's group</a> while my graduation project from MSA was about "Mapping selective pharmacophore for EGFR and VEGFR Tyrosine kinase inhibitors".
-								</p>
-							</article>
-						
-						<!-- Skills -->
-							<article id="skills">
-								<h2 class="major">SKILLS</h2>
-								<span class="image main"><img src="images/pic02.jfif" alt="" />
-									<figcaption>Me working on <a href = "https://en.wikipedia.org/wiki/Kusanagi_no_Tsurugi"> Kusanagi</a>, my working station at Julien's group</figcaption>
-								</span>
-								<h3>General Skills</h3>
-								<li>Communication Skills</li>
-								<li>Teamwork</li>
-								<li>Time Management</li>
-								<li>Strategic Planning & Problem Solving</li>
-								<li>Good listener</li>
-								<li>Determination and Persistence</li>
-								<li>Fast and self learner</li>
-								<p></p>
-								<p>
-									I did put all of these skills into action during my MSc graduation project where I solved almost all the problems I was facing during my project by myself by doing a lot of searching and reading. I also showed my ability to learn fast where I learned a lot of new skills such as how to use BioSimSpace, how to run ABFE calculations in Sire, and how to use Amber tools in just under 3 months during my project. I also had to write and report my daily tasks and achievements with my supervisor through Electronic Notebook (ENB) and weekly meetings. I was also planning and scheduling my work to make sure I am on track with my project and that I am not wasting time. For complicated problems, I was showing persistence and determination to solve them before asking for help. I was also a good listener and was always ready to help my team members when facing problems. For instance, I faced a problem that took me 3 days to solve and one of our group members faced the same problem. I was able to help her and solve the problem in under 20 minutes. 
-								</p>
-								<h3>Computational and Programming Skills</h3>
-								<li>MicroSoft Office</li>
-								<li>Windows and Linux</li>
-								<li>Python</li>
-								<li>R</li>
-								<li>Bash Scripting</li>
-								<li>Git and <a href="https://github.com/Shalash96">GitHub</a></li>
-								<li>SQL (PostgreSQL)</li>
-								<li>Data analysis using Python and R using miniconda, Panadas, Matplotlib, dplyr, etc...</li>
-								<li>Chemistry Software such as MOE, Pymol, Amber Tools, VMD</li>
-								<li>Python Frameworks for biology and chemistry such as BioSimSpace, RDKit, Biopython</li>
-								<li>Basics knowlodge about ML, and Python libraries such as SciKit learn</li>
-								<li>Cloud computing (Colab) and SSHing</li>
-								<p></p>
-								<p>
-									I used my knowledge in programming and computational skills during my MSc graduation project where I used Python to write 
-									codes that run the simulation process using PEMD.CUDA using BioSimSpace library. 
-									I also contributed to the <a href="https://github.com/fjclark/abfe_analysis">Python code</a> 
-									used to analyse the result of the Alchemical Free Energy calculations using Sire by editing it 
-									so it can work for my system without errors. I also used to work on-site or remotely during my project
-									 while using Git and GitHub to share my codes with my supervisor. Also, I wrote a small python script that 
-									 can be used to produce multiple copies of the files and folders that are used to run one run of the ABFE calculation, 
-									 for more information follow this <a href="https://github.com/Shalash96/ABFE-Benchmarking/tree/main/04.ABFECalaculation/run00xGenerator">link</a>
-									 I also helped one of my friends who was doing a project in another group by writing a bash script that helped him to do his analysis faster by automating it than doing it manually. 
-								</p>
-							</article>
+    <!-- ────────── Main Content ────────── -->
+    <main id="page-content-wrapper">
+        <!-- Hero -->
+        <header id="home-hero"
+                class="hero-section text-white text-center d-flex align-items-center">
+            <div class="hero-overlay"></div>
 
-						<!-- Research -->
-							<article id="research">
-								<h2 class="major">RESEARCH</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" />
-									<figcaption>Me searching for a good book about medicinal chemistry in the main library of the University of Edinburgh</figcaption>
-								</span>
-								<h2>My Research Interests</h2>
-								<p>
-									I am interested in medicinal and computational chemistry, particularly the use of computational methods to discover and develop new 
-									pharmaceutical compounds to target proteins of interest. That is why I did both of my graduation projects from my BSc and MSc in the 
-									field of medicinal and computational chemistry departments in MSA and UoE. I am also interested in the field of machine learning and its 
-									applications in the field of chemistry and biology, but I did not do any project about this yet.
-								</p>
-								<h3><li>MSc DISSERTATION, The University of Edinburgh</li></h3>
-								<P>
-									The research was under the title "Benchmarking an Absolute Binding Free Energy Calculation Workflow for Computer-Aided Drug Design". The research involved testing the effectiveness of ABFE as a tool for fragment based drug desgin (FBDD). First, I ran simulation processes for three ligands, two fragments and one merged compound. ABFE calculations for the three ligand were then performed using SOMD, a molecular dynamic software. The result obtained from these calculations were then compared to the experimental data and another computational study to measure the accuracy and reliability. 
-									Here are the <a href="https://drive.google.com/file/d/143qQhSWAkuFXJcEIEBj-o-_Yri0oA5xy/view?usp=sharing">dissertation</a> and the <a href="https://github.com/Shalash96/ABFE-Benchmarking">GitHub repo</a> if you want to know more.
-								</P>
-								<h3><li>BSc DISSERTATION, MSA University</li></h3>
-								<p>
-									The research was under the title "Mapping selective pharmacophore for EGFR and VEGFR Tyrosine kinase inhibitors". This research aimed to design and validate a pharmacophore that is selective for each EGFR andVEGFR tyrosine kinase. The pharmacophores that was designed can be then used to screen chemical libraries for promising hits by using its common features to check if other chemical compounds have the same features as well that can lead to the same interactions, and therefore conduct the same biological activity. Here is the <a href="https://drive.google.com/file/d/1u7sXnUWwNQuRP9jXCskbk7Ur9xZGF31G/view">thesis</a> to read more about it.
-								</p>
-								<h3><li>A published paper</li></h3>
-								<p>
-									I also published a paper as a co-author. The paper's title is "Local anaesthetic potential, metabolic profiling, molecular docking and in silico ADME studies of Ocimum forskolei, family Lamiaceae".
-									The research aimed to detect the bioactive metabolites from Ocimum forskolei aerial parts which are responsible for the local anaesthetic activity of the ethyl acetate fraction. I performed the docking process and recognising the hydrogen bonds formed between the compounds and the activesite.
-									To read more about the research, you can use this <a href="https://www.tandfonline.com/doi/full/10.1080/14786419.2020.1719489">link</a> to open the paper in the journal.
-								</p>
-							</article>
+            <div class="container hero-content" data-aos="fade-in" data-aos-duration="1000">
+                <h1 class="display-3 fw-bolder">Mahmoud Shalash</h1>
 
-						<!-- Jobs -->
-						<article id="jobs">
-							<h2 class="major">Jobs</h2>
-							<span class="image main"><img src="images/labcoat.jpg" alt="" />
-								<figcaption>Me wearing the lab coat at MSA University</figcaption>
-							</span>
-							<h3><li>Volunteer tutor</h3></li>
-							<p>I tutor the ”Scotland higher level of Chemistry and Biology” for students at <a href="https://www.ed.ac.uk/chaplaincy/social-global-projects/refugee-work/syrian-teenagers-tutoring">(STTEPS)</a> - University of Edinburgh</p>
-							<h3><li>Inspector</h3></li>
-							<p> I worked as inspector at the Egyptian National Food Safty Authority <a href="http://www.nfsa.gov.eg/(S(5yz1b2wli5hivqxfv0d3ztod))/App_PP/DeskTop/App_Web/App_Custom/1/Default.aspx?TabID=10000000">(NFSA)</a></p>
-							<h3><li>Community pharmacist</h3></li>
-							<p> I worked as a part-time community pharmacist during my study at some pharmacies in October and Tanta cities</p>
-							
-						</article>
+                <!-- Typed.js rotating words -->
+                <div class="typed-container lead mb-3">
+                    <span id="typed-strings-container" style="display:none;">
+                        <span>I love <span class="typed-word-highlight">coding.</span></span>
+                        <span>I'm fascinated by <span class="typed-word-highlight">molecular dynamics.</span></span>
+                        <span>I leverage <span class="typed-word-highlight">AI for drug discovery.</span></span>
+                        <span>I decode <span class="typed-word-highlight">biomolecular interactions.</span></span>
+                    </span>
+                    <span id="typed-output"></span>
+                </div>
 
-						<!-- Interests -->
-						<article id="interests">
-							<h2 class="major">Interests</h2>
-							<span class="image main"><img src="images/anime.jpg" alt="" />
-								<figcaption>Gon and Killua from anime <a href = ""> HxH</a></figcaption>
-							</span>
-							<h3>My interests are:</h3>
-							<li>Anime</li>
-							<li>Reading books (History and Sci-Fic)</li>
-							<li>Coding</li>
-							<li>Football</li>
-							<li>Basketball</li>
-							<li>Table tennis</li>
-							<li>Hiking</li>
-						</article>
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<p>
-									One reason why we did not have any contact with aliens yet is because we did not give them any contact information.
-								</p>
-								<span class="image main"><img src="images/contact.jpg" alt="" />
-								<p></p>
-								<ul class="icons">
-									<li><a href="https://twitter.com/__shalash__" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://github.com/Shalash96" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.linkedin.com/in/shalash/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://www.researchgate.net/profile/Mahmoud-Shalash-3" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
-									<li><a href="mailto: mmshalash@outlook.com" class="fa fa-envelope" aria-hidden="true"><span class="label"></span></a></li>
-									<li><a href="https://drive.google.com/file/d/1ojftax0eC9F1kTC03VlPa5nirJkiRSJH/view?usp=share_link" class="fa fa-sharp fa-solid fa-file-pdf" aria-hidden="true"><span class="label"></span></a></li>
-									
-								</ul>
-							</article>
+                <p class="lead-subtitle mb-4" data-aos="fade-up" data-aos-delay="500">
+                    Recipient of the Marie Curie (MSCA) COFUND FutureData4EU fellowship.
+                </p>
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+                <div data-aos="fade-up" data-aos-delay="700">
+                    <a href="research.html" class="btn btn-lg btn-primary-hero me-2">View My Research</a>
+                    <a href="assets/Mahmoud_Shalash_CV.pdf"
+                       class="btn btn-lg btn-outline-light-hero" target="_blank"
+                       rel="noopener noreferrer">Download CV</a>
+                </div>
+            </div>
+        </header>
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+        <!-- Welcome Section -->
+        <section class="section welcome-section bg-alt">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9" data-aos="fade-right">
+                        <div class="section-header text-lg-start text-center">
+                            <h2 class="section-title">Welcome</h2>
+                            <p class="section-subtitle mx-lg-0">
+                                Computational Biochemistry, Molecular Simulations &amp; AI-driven drug discovery.
+                            </p>
+                        </div>
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+                        <p class="lead-2 mb-4">
+                            I’m a PhD candidate exploring how physics-based molecular dynamics,
+                            machine-learning models, and Hydrogen–Heuterium eXchange Mass Spectrometry (HDX-MS)
+                            can illuminate protein structure and dynamics.  
+                            I’m fascinated by how proteins work—and by how we can design effective drugs to
+                            modulate them.  
+                            Here you’ll find my publications, open-source code, and collaborative projects at the
+                            intersection of computation and life science.
+                        </p>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+                        <!-- Keyword badges -->
+                        <div class="mb-4">
+                            <span class="badge bg-secondary me-2 mb-1">Molecular&nbsp;Dynamics</span>
+                            <span class="badge bg-secondary me-2 mb-1">ML&nbsp;/&nbsp;AI</span>
+                            <span class="badge bg-secondary me-2 mb-1">Data Analysis</span>
+                            <span class="badge bg-secondary me-2 mb-1">Computational&nbsp;Biochemistry</span>
+                            
+                        </div>
 
-								<section>
-									<h3 class="major">Lists</h3>
+                        <a href="about.html" class="btn btn-primary-custom mt-2">
+                            Learn More About Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+    <!-- ────────── Footer ────────── -->
+    <footer class="footer text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">© <span id="currentYear"></span> Mahmoud Shalash. All Rights Reserved.</p>
+            <p class="small mb-0">
+                Designed with Bootstrap &nbsp;<i class="fas fa-heart text-danger"></i>
+            </p>
+        </div>
+    </footer>
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+    <!-- ────────── JS Dependencies ────────── -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Mahmoud Shalash CV. I used and edited a design provided by: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Your custom scripts -->
+    <script src="js/page-transitions.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
+
